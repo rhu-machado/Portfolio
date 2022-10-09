@@ -20,9 +20,9 @@ function Header() {
             <S.BoxHeader>
                 <S.Menu onClick={() => { But() }}>{menu}</S.Menu>
                 {open && <S.List>
-                    <li>Home</li>
-                    <li>Project</li>
-                    <li>ONU</li>
+                    <S.ItemList>Home</S.ItemList>
+                    <S.ItemList>Project</S.ItemList>
+                    <S.ItemList>ONU</S.ItemList>
                 </S.List>}
             </S.BoxHeader>
         </S.ContainerHeader>

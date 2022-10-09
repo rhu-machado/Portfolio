@@ -21,14 +21,14 @@ export const ContainerHeader = styled.section`
     background-color: #011627;
     border-bottom: solid #e71d36 8px;
     border-radius: 5px;
-
-    @media (max-width:750px){
-        border:solid;
-    }
 `
 
 export const Logo = styled.img`
     width: 5vw;
+
+    @media (max-width:750px){
+        width: 10vw;
+    }
 `
 
 export const BoxHeader = styled.div`
@@ -37,6 +37,10 @@ export const BoxHeader = styled.div`
     display:flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width:750px){
+        width: 40%;
+    }
 `
 
 export const Menu = styled.h3`
@@ -53,11 +57,6 @@ export const Menu = styled.h3`
         display: flex;
     }
 `
-export const Ti = styled.h2`
-    color:#ff9f1c;
-    font-size:1rem;
-    padding: 10px;
-`
 
 export const List = styled.ul`
     display:flex;
@@ -65,4 +64,11 @@ export const List = styled.ul`
     align-items:center;
     color:#2ec4b6;
     width: 90%;
+`
+export const ItemList = styled.li`
+    font-weight: 500;
+    :hover{
+        cursor:pointer;
+        border-bottom: solid 1px #e71d36;
+    }
 `
