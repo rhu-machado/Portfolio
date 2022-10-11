@@ -64,6 +64,10 @@ export const List = styled.ul`
     align-items:center;
     color:#2ec4b6;
     width: 90%;
+
+    @media (max-width:750px){
+        display:${(props)=>props.mostrar === false ? 'flex' : 'none'};
+    }
 `
 export const ItemList = styled.li`
     font-weight: 500;
