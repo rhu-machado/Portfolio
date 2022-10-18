@@ -7,16 +7,92 @@ function Projects() {
             <S.SubTitle>
                 <h2>Projects</h2>
             </S.SubTitle>
-            <S.BoxProj>
-                <figure>
-                    <S.ProjectImg src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png' alt='' />
-                </figure>
-            </S.BoxProj>
-            <S.BoxProj>
-                <figure>
-                    <S.ProjectImg src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png' alt='' />
-                </figure>
-            </S.BoxProj>
+            <S.BoxProjects>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+                <S.BoxProj>
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                    <h4>Nome do Projeto</h4>
+                    <p>Sobre o projeto</p>
+                </S.BoxProj>
+            </S.BoxProjects>
         </S.ContainerProj>
     )
 }

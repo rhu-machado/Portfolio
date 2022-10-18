@@ -22,7 +22,7 @@ function Home() {
                 <S.SubTitle>About Me</S.SubTitle>
                 <S.BoxAbout>
                     <S.BoxImg>
-                        <S.Rhuan src={RhuOne} alt='' />
+                        <S.Rhuan src={RhuOne} alt='Homem negro de pé em frente a um monumento' />
                     </S.BoxImg>
                     <S.Div>
                         <S.Topico>Um Pouco De Mim</S.Topico>
