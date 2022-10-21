@@ -8,6 +8,7 @@ import RhuThree from '../../Images/RHU-03.jpg'
 function Home() {
     return (
         <section>
+            <S.BackMain>
             <S.ContainerMainTop>
                 <S.BoxImg>
                     <S.RhuanMain src={RhuTwo} />
@@ -17,6 +18,7 @@ function Home() {
                     <S.Text>Front-end Developer</S.Text>
                 </S.BoxName>
             </S.ContainerMainTop>
+            </S.BackMain>
 
             <S.Section>
                 <S.SubTitle>About Me</S.SubTitle>

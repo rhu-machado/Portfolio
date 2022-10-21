@@ -15,11 +15,16 @@ export const BoxFooter = styled.div`
     align-items: center;
 `
 export const A = styled.a`
-    color: white;
-    width: 10vw;
-    height: 7vh;
+    color: #2ec4b6;
+    width: 6vw;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:2px 5px;
+    margin:10px 25px;
+    transform: scale(130%);
+
+    :hover{
+        transform: scale(150%);
+    }
 `

@@ -12,9 +12,6 @@ function Footer() {
                 <S.A href='https://www.linkedin.com/in/rhuan-machado/' target='_blanck'><BsLinkedin/></S.A>
                 <S.A href='https://www.instagram.com/rhu_machado/' target='_blanck'><GrInstagram/></S.A>
             </S.BoxFooter>
-            {/* <S.BoxFooter>
-                <p>copyrigth</p>
-            </S.BoxFooter> */}
         </S.ContainerFooter>
     )
 }

@@ -2,16 +2,19 @@ import styled,{createGlobalStyle} from 'styled-components';
 import {Link} from 'react-router-dom'
 
 export const GlobalStyle = createGlobalStyle`
+    
+
     *{
         margin:0;
         padding:0;
         box-sizing: border-box;
         list-style:none;
+        
     }
 
     body{
         background-color: #252525;
-        color:#fdfffc;
+        color:white;
     }
 `
 
@@ -94,5 +97,19 @@ export const Links = styled(Link)`
         cursor:pointer;
         transform: scale(120%);
         border-bottom: double 1px #e71d36;
+    }
+`
+
+export const ButLight = styled.button`
+    padding: 3px;
+    display: flex;
+    color: #252525;
+    background-color: #2ec4b6;
+    border: none;
+    border-radius: 10px;
+    
+    :hover{
+        color: orange;
+        cursor: pointer;
     }
 `

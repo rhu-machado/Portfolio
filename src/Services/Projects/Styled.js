@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ContainerProj = styled.section`
-    border: solid;
     display: flex;
     justify-content: space-between;
     flex-direction:column;
@@ -12,7 +11,7 @@ export const ContainerProj = styled.section`
     }
 `
 export const SubTitle = styled.div`
-    border: solid orange;
+    color:orange;
     width:100vw;
     height: 15vh;
     display: flex;
@@ -25,15 +24,27 @@ export const ProjectImg = styled.img`
 `
 
 export const BoxProjects = styled.div`
-    border: solid green;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
 `
+export const Img = styled.img`
+    width:100%;
+`
 
 export const BoxProj = styled.div`
-    border: solid purple;
+    background-color: #011627;
     width: 30vw;
     margin:5%
 `
+
+export const BoxText = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 2s all;
+    display: ${(props) => (props.view === false ? 'none' : 'flex')};
+`
+

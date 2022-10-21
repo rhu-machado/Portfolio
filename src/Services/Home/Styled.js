@@ -1,15 +1,26 @@
 import styled from 'styled-components'
+import Dev from '../../Images/backDev.jpg'
+
+export const BackMain = styled.section`
+    background-image: url(${Dev});
+    background-size: cover;
+`
 
 export const ContainerMainTop = styled.section`
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
     display:flex;
     justify-content:center;
     align-items: center;
     height: 100vh;
+    background-color: rgba(37,37,37,0.9);
+    font-family: 'Raleway',sans-serif;
     
     @media (max-width:750px){
         flex-direction: column;
     }
 `
+
 export const RhuanMain = styled.img`
     width:18vw;
     border-radius:0px;
@@ -69,7 +80,7 @@ export const Title = styled.h1`
 
     @keyframes underline{
         0%{
-            border-bottom: solid #e71d36 5px;
+            
             border-width: 1px;
             
         }
@@ -111,8 +122,19 @@ export const Section = styled.section`
 `
 
 export const SubTitle = styled.h2`
-    color:#ff9f1c;
+    color: #e71d36;
     border-bottom: solid #2ec4b6;
+    font-size:1.8rem;
+    transition:0.5s all;
+
+    :hover{
+        color: #2ec4b6;
+        border-bottom: solid #e71d36;
+        text-shadow:0px 3px 5px #888;
+        transform: scale(105%);
+        cursor: pointer;
+    }
+    
 `
 
 export const BoxAbout = styled.section`
