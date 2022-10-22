@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import * as S from './Styled'
 import Pj from '../../Images/HPproj.png'
+import Beat from '../../Images/LifeBeat.png'
 
 function Projects() {
     const [one,setOne] = useState(false)
@@ -34,10 +35,10 @@ function Projects() {
                 </S.BoxProj>
                 <S.BoxProj onClick={()=>setTwo(!two)}>
                     <figure>
-                        <S.Img src={Pj} alt=""/>
+                        <S.Img src={Beat} alt=""/>
                     </figure>
                     <S.BoxText view={two}>
-                        <h4>Nome do Projeto</h4>
+                        <a href='https://beat-rhu-machado.vercel.app/'><h4>Beat</h4></a>
                         <p>Sobre o projeto</p>
                     </S.BoxText>
                 </S.BoxProj>
